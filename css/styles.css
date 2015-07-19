@@ -1,0 +1,30 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #777777;
+  font-weight: 300;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.title-super {
+	font-size: 60px;
+}
+
+.title-header {
+	margin-top: 20px;
+}
+
+.circular {
+  width: 200px; 
+  height:200px;
+  border-radius:50%;
+  margin:25px;
+}
+
+.circular img {
+  border-radius:50%;
+  transition: transform 0.5s ease;
+  transform: scale(0.8);
+}
